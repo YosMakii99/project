@@ -1,0 +1,116 @@
+.box {
+
+  background-image: url(../img/background.png);
+}
+
+
+<div style="background:white url(/images/backgrounds-2.png) 
+repeat fixed;width:300px;height:200px;">HTML background code example</div>
+
+
+
+.back-1 {
+
+     width: 250px;
+
+
+}
+
+
+
+.lilita-one-regular {
+  font-family: "Lilita One", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+
+
+.sec-1 {
+    text-align: unset;
+   display: contents;
+   width: 2000%;
+
+
+  }
+
+
+/*base*/
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 3.5rem 0 0 0;
+  font-family: "Poppins", sans-serif;
+  font-size: 0.938rem;
+  background: linear-gradient(90deg, #000000 0%, #08174a 50%);
+  color: #05ff11;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  color: #00ff40;
+  font-weight: 600;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+button,
+input {
+  border: none;
+  outline: none;
+}
+
+button {
+  cursor: pointer;
+  font-family: "Poppins", sans-serif;
+  font-size: 0.938rem;
+}
+
+/*reutilisabes*/
+.section {
+  padding: 4.5rem 0 2rem;
+}
+
+.sectiontitle {
+  font-size: 2.25rem !important;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.container {
+  max-width: 968px;
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+}
+
+.grid {
+  display: grid;
+}
+
+.main {
+  overflow: hidden;
+}
+
+
